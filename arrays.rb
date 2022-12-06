@@ -1,4 +1,30 @@
 friends = ["Jeff", "Kara", "Matt", "David"]
 ages = [33, 30, 27, 36]
-bank accounts = [700.00, 500.12, 1200.00, 1500.69]
+bank_accounts = [700.00, 500.12, 1200.00, 1500.69]
 balance_paid = [true, false, true, false]
+
+# this method calls to check on the number of elements within the friends array.
+#it should return 4 as there are 4 elements in the friends array.
+ p friends.length
+
+# this method selects the last element in the ages array and deletes it.  
+# it will print the last element "36" 
+#and when printing the ages array after the .pop method is used it will no longer show the last element in the array.
+ p ages.pop
+
+# This method will shift the elements down so the element in index position 0 is no longer in the array.  
+# the elements in index position 1, 2, 3 will shift down 1 index position.  Since there isn't an index position less than 0 the element in that position will be move removed from the array
+#and won't return when we print bank_accounts array
+ p bank_accounts.shift
+
+# This method would undo a shift method if one was already done on this array.  The element that was removed with the .shift method could be replaced 
+# by using the .unshift method.  In this case there was no .shift used and there for nothing happens to the
+#balance_paid array's elements.  When printing out balance_paid it should show the original elements in that array. 
+p  balance_paid.unshift
+
+puts friends
+puts ages
+puts bank_accounts
+puts balance_paid
+
+
