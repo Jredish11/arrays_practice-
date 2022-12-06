@@ -38,3 +38,7 @@ print friends[2]
 
 #it should return Jeff and Matt.
 
+# This array method .reverse! is asking to reverse the order of elements in the array.
+# So the last element or element in index position 3 will now jump to index position 0.
+# this example will return the friends array as: David, Matt, Kara, Jeff
+puts friends.reverse!
