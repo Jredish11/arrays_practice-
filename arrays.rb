@@ -28,3 +28,13 @@ puts bank_accounts
 puts balance_paid
 
 
+#index position indicates the position of an element in an array. Taking the example of friends array
+# friends = ["Jeff", "Kara", "Matt", "David"] there are 4 elements in this array.  Each one has a specific index position.
+# starting from first element to last the index positions would be as follows: 0, 1, 2 ,3.  
+# in order to see which element corresponds to each index position in an array we can write this code:
+
+print friends[0]
+print friends[2]
+
+#it should return Jeff and Matt.
+
